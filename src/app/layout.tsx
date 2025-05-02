@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${openSans.variable} antialiased min-h-screen container mx-auto bg-lime-50`}
+        className={`${openSans.variable} antialiased min-h-screen container px-[2rem] mx-auto bg-lime-50`}
       >
         {children}
       </body>
